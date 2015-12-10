@@ -1,0 +1,458 @@
+/*Global Styles*/
+
+/*     * {color:#99FF66;} Global Selector. Don't use this.*/        
+
+@import url(https://fonts.googleapis.com/css?family=Archivo+Black|Permanent+Marker|Black+Ops+One|Press+Start+2P);
+
+html, body {height:100%;}
+
+
+
+body {
+    margin:0px;
+    padding:0px;
+    /*font-family:'Lucida Sans', Verdana, sans-serif,;*/
+    font-family: 'Black Ops One', cursive;
+    font-size:16px;
+    font-weight:500;
+    /*background-color:#199999;*/
+}
+
+h1, h2, h3 {
+    color:#555555; /* Gray*/
+    margin:0px;
+    padding:0px;
+}
+
+h1 {
+    font-size:3em; /* em is a scaleable font size */
+}
+
+p {
+    margin:15px 0px;
+    line-height:25px;
+    
+}
+
+b, strong {
+    color:#AAB6A2;
+}
+
+a {
+    color:#99FFCC;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#33CCCC;
+}
+
+figure {
+    margin:0px;
+    padding:0px;
+}
+/*Header Styles*/
+
+header {
+    background-color:#199999;
+    /*height:150px;*/
+}
+
+#header {
+    padding:15px 0px;
+    position:relative;
+}
+
+#logo {
+    padding:15px;
+    color:#4086AA;
+}
+
+#logo:hover {
+    color:#91C3DC;
+}
+/*Navigation Styles*/
+
+#menu {
+    position:absolute;
+    top:20px;
+    right:2%;
+}
+
+ #menu ul {
+    display:inline;
+    background-color:#199999;
+    padding:15px 10px;
+}
+
+#menu li {
+    display:inline-block;
+    margin:10px;
+    padding:15px 10px;
+    background-color:rgb(64, 134, 170);
+    font-weight:600;
+    /*text-transform:uppercase;*/
+    border-radius:15px 0px;
+}
+#menu li:hover {
+    background-color:#87907D;
+    border-radius:0px 15px;
+}
+/* #menu li:before {
+    content:"Swag";
+    color:rgb(85, 85, 85);
+} */
+#menu li:after {
+    content:" |";
+    padding:15px 0px;
+    color:rgb(85, 85, 85);
+}
+
+.currentPage a {
+    color:#91C3DC;
+    border-radius:0px 15px;
+}
+
+/*Banner Styles*/
+
+#bannerHome {
+    border-top:3px dashed #555555;
+    padding:100px 0px;
+    background:url(../images/banner-home.jpg) no-repeat center left #AAB6A2; /* Center 1 = Center Column, Center 2 = Center Row. */
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerAbout {
+    border-top:3px dashed #555555;
+    padding:150px 0px;
+    background:url(../images/banner-about.jpg) no-repeat center center #AAB6A2; /* Center 1 = Center Column, Center 2 = Center Row. */
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerGallery {
+    border-top:3px dashed #555555;
+    padding:150px 0px;
+    background:url(../images/banner-gallery.jpg) no-repeat center center #AAB6A2; /* Center 1 = Center Column, Center 2 = Center Row. */
+    background-size:cover;
+    overflow:hidden;
+}
+
+
+#bannerContact {
+    border-top:3px dashed #555555;
+    padding:150px 0px;
+    background:url(../images/banner-contact.jpg) no-repeat center center #AAB6A2; /* Center 1 = Center Column, Center 2 = Center Row. */
+    background-size:cover;
+    overflow:hidden;
+}
+
+
+.bannerTitle {
+    text-align:center;
+    color:#000;
+    font-size:4em;
+    text-shadow:5px 1px 6px #FFF;
+}
+
+.backgroundImage {
+    background:url(../images/jellybeans.jpg);
+}
+
+/*Main Body Section*/
+
+.mainWidth {
+    width:1200px;
+    margin:0px auto;
+    overflow:hidden;
+    background-color:#87907D;
+}
+
+#main {
+    margin-bottom:25px;
+}
+
+/*Column Styles*/
+
+.columnA, .columnB, .columnC {
+    width:384px;
+}
+
+.columnA, .columnB{
+    float:left;
+    margin-right:24px;
+}
+
+.columnC {
+    float:right;
+}
+
+
+.columnA h2, .columnB h2, .columnC h2 {
+    color:#555555;
+    font-size:3em;
+    font-weight:900;
+    text-transform:uppercase;
+    text-align:center;
+}
+/* .likeImage { */
+/*    width:384px;*/
+/*    height:225px;*/
+/*    background-color:#123123;*/
+/*}*/
+.likeImage span {
+    display:block;
+    font-size:2em;
+    background-color:#87907D;
+    color:#FFFFFF;
+    text-align:center;
+    text-transform:uppercase;
+    padding:15px 0px;
+}
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
+    padding:0px;
+}
+
+/*Button Styles*/
+
+a.button, .button {                   /*focuses ALL a tags with class of button */
+    padding:15px 25px;
+    background-color:#326985;
+    background-image:url(../images/gun.gif);
+    color:#6eaac8;
+    /*-webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -o-border-radius:6px; */
+    border-radius:15px;
+    border:3px solid #5c9fc1;
+    font-weight:600;
+    float:left;
+}
+a.button, .button:hover {
+    background-color:#5c9fc1;
+    color:#326985;
+    cursor:url(../images/cursor.png), auto;
+}
+div .button {
+    float:left;
+}
+
+a.buttonRed {
+    background:url(../images/) no-repeat center center #AAB6A2;
+}
+
+a.buttonRed:hover {
+    
+}
+
+#bannerButton {
+    width:300px;
+    margin:0px auto;
+    margin-top:50px;
+}
+
+
+/*About ME Styles*/
+
+.alignLeft {
+    float:left;
+    width:384px;
+    margin-right:24px;
+}
+.alignRight {
+    float:right;
+    width:784px;
+    text-align:justify;
+}
+ #main {
+    margin-bottom:25px;
+ }
+
+/*Footer Styles*/
+footer {
+    clear:both;
+    margin:26px;
+    text-align:center; /*How I fixed footer centering */
+}
+
+footer p {
+    text-align:center;
+    font-size:1.1em;
+}
+
+.copyright {
+    overflow:hidden;
+    padding:30px 0px;
+    border-top:3px dotted #000000;
+    display:block;
+    background-color:#999999;
+    
+}
+
+
+.social {
+    text-align:center;
+}
+
+.copyright p {
+    margin:center;
+    font-size:12px;
+}
+
+footer a {
+    color:#326985;
+}
+footer a:hover {
+    color:#6EAAC8;
+}
+
+/*Extra Styles */
+
+.fa {
+    background-color:#999;
+    border:3px solid #FFF;
+    font-size:2em !important;
+    margin:15px;
+    color:#FFF;
+    height:28px;
+    width:28px;
+    padding:10px;
+    border-radius:100%;
+}
+
+.fa:hover {
+    background-color:#FF7900;
+}
+
+.fa-facebook {background-color:#0C516E;}
+.fa-twitter {background-color:#8CA6D9;}
+.fa-instagram {background-color:#125688;}
+.fa-tumblr {background-color:#2C4762;}
+.fa-reddit {background-color:#ff4500;}
+.fa-linkedin {background-color:#007bb5;}
+
+/*Typing Styles*/
+
+#myData {
+    margin:auto;
+    width:900px;
+}
+#myHeader tr th {
+    background-color:#4086AA;
+    color:#FFF;
+    font-size:1.3em;
+    padding:5px 0px;
+    text-shadow:2px 1px #000;
+}
+#groupData {
+    margin:auto;
+    width:900px;
+}
+#groupHeader{
+    background-color:#91C3DC;
+    color:#FFF;
+    font-size:1.3em;
+    padding:5px 0px;
+    text-shadow:2px 1px #000;
+}
+/* tr th {
+    background-color:#666;
+} */
+table {
+    border-radius:5px;
+    background-color:#AAB6A2;
+    text-align:center;
+}
+th {
+    background-image:url(../images/gun.gif);
+}
+.grayCell {
+    background-color:#C6CBC2;
+}
+tfoot tr {
+    background-image:url(../images/gun.gif);
+}
+tr:hover {
+    background-image:url(../images/gun.gif);
+}
+tfoot tr td {
+    padding:5px;
+    border-radius:10px;
+    
+}
+
+/*Form Styles*/
+
+.asterisk {
+    color:#FF0000;
+    font-weight:900;
+}
+input, textarea {
+    border-radius:15px;
+    border:2px solid #1F1F7A;
+    box-shadow:1px 1px 5px #1F1F7A inset;
+    color:#1F1F7A;
+    display:block;
+    text-align:center;
+}
+textarea {
+    height:200px;
+}
+form {
+    margin:50px 50px;
+    background-color:#91C3DC;
+    border-radius:15px;
+    padding:25px;
+    width:25%;
+}
+.bottomForm {
+    margin-top:15px;
+}
+legend {background-color:#FFFFFF;}
+
+
+@media screen and (max-width: 1024px) {
+    .mainWidth {
+        display:block;
+        float:none;
+        width:auto;
+        margin:1% auto;
+    }
+    mainBody {
+        background-color:#ffffff;
+    }
+    .alignLeft {
+        clear:none;
+    }
+    
+    .alignRight {
+        float:none; 
+        width:86%; 
+        margin:5% auto;
+        clear:none;
+    }
+    .columnA, .columnB, .columnC {
+        clear:both;
+        width:auto;
+        margin:1% 14%;
+    }
+    .likeImage img {
+        margin:auto;
+        width:100%;
+    }
+    sections article a.button {
+        clear:both;
+        margin:0 33%;
+        width:auto;
+        font-size:.70em;
+    }
+}
+@media screen and (max-width: 601px) {
+    body {background-color:#000000;}
+    h1 {
+        color:#FFFFFF;
+        font-size:1em;
+    }
+}
