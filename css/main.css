@@ -220,25 +220,20 @@ header {
 a.button, .button {                   /*focuses ALL a tags with class of button */
     padding:15px 25px;
     background-color:#326985;
-    background-image:url(../images/gun.gif);
     color:#6eaac8;
-    /*-webkit-border-radius:6px;
+    -webkit-border-radius:6px;
     -moz-border-radius:6px;
-    -o-border-radius:6px; */
+    -o-border-radius:6px; 
     border-radius:15px;
     border:3px solid #5c9fc1;
     font-weight:600;
-    float:left;
+    font-size:1.2em;
 }
 a.button, .button:hover {
     background-color:#5c9fc1;
     color:#326985;
     cursor:url(../images/cursor.png), auto;
 }
-div .button {
-    float:left;
-}
-
 a.buttonRed {
     background:url(../images/) no-repeat center center #AAB6A2;
 }
@@ -248,9 +243,8 @@ a.buttonRed:hover {
 }
 
 #bannerButton {
-    width:300px;
-    margin:0px auto;
-    margin-top:50px;
+    text-align:center;
+    margin:25px 0px;
 }
 
 
@@ -316,8 +310,8 @@ footer a:hover {
     font-size:2em !important;
     margin:15px;
     color:#FFF;
-    height:28px;
-    width:28px;
+    height:58px;
+    width:58px;
     padding:10px;
     border-radius:100%;
 }
@@ -447,12 +441,5 @@ legend {background-color:#FFFFFF;}
         margin:0 33%;
         width:auto;
         font-size:.70em;
-    }
-}
-@media screen and (max-width: 601px) {
-    body {background-color:#000000;}
-    h1 {
-        color:#FFFFFF;
-        font-size:1em;
     }
 }

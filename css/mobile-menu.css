@@ -66,7 +66,54 @@
         width:400px;
         z-index:9999;
         position:relative;
-        float:;
+    }
+    .mason {
+        width:100%;
+    }
+    .mobileAside {
+        width: 100%;
+        display:block; !important
+    }
+    .mobileAbout {
+        width:auto;
+        display:block;
+        margin:25px 0px;
+    }
+    .mainWidth {
+        width:95%;
+        padding:20px;
+    }
+    mainBody {
+        background-color:#ffffff;
+    }
+    .alignLeft {
+        clear:none;
+    }
+    
+    .alignRight {
+        float:none; 
+        width:86%; 
+        margin:5% auto;
+        clear:none;
+    }
+    .columnA, .columnB, .columnC {
+        clear:both;
+        width:auto;
+        margin:1% 14%;
+    }
+    .columnA h2, .column h2, .columnC h2 {
+     font-size:3em;   
+    }
+    
+    .likeImage img {
+        margin:auto;
+        width:100%;
+    }
+    sections article a.button {
+        clear:both;
+        margin:0 33%;
+        width:auto;
+        font-size:.70em;
     }
     nav > ul > li {
     }
