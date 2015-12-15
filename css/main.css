@@ -406,40 +406,20 @@ form {
 }
 legend {background-color:#FFFFFF;}
 
+/*Gallery Styles*/
 
-@media screen and (max-width: 1024px) {
-    .mainWidth {
-        display:block;
-        float:none;
-        width:auto;
-        margin:1% auto;
-    }
-    mainBody {
-        background-color:#ffffff;
-    }
-    .alignLeft {
-        clear:none;
-    }
-    
-    .alignRight {
-        float:none; 
-        width:86%; 
-        margin:5% auto;
-        clear:none;
-    }
-    .columnA, .columnB, .columnC {
-        clear:both;
-        width:auto;
-        margin:1% 14%;
-    }
-    .likeImage img {
-        margin:auto;
-        width:100%;
-    }
-    sections article a.button {
-        clear:both;
-        margin:0 33%;
-        width:auto;
-        font-size:.70em;
-    }
+.galleryImages {
+    margin:10px;
+    float:left;
+    background-color:#4086aa;
+    border:2px solid #c5dde9;
+    width:280px;
+    display:block;
+}
+.galleryImages img {
+    width:27px;
+}
+.figNewton {
+    padding:10px;
+    font-size:15px;
 }

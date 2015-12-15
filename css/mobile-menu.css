@@ -12,6 +12,43 @@
     display:none;
 }
 
+@media screen and (max-width: 1024px) {
+    .mainWidth {
+        display:block;
+        float:none;
+        width:auto;
+        margin:1% auto;
+    }
+    mainBody {
+        background-color:#ffffff;
+    }
+    .alignLeft {
+        clear:none;
+    }
+    
+    .alignRight {
+        float:none; 
+        width:86%; 
+        margin:5% auto;
+        clear:none;
+    }
+    .columnA, .columnB, .columnC {
+        clear:both;
+        width:auto;
+        margin:1% 14%;
+    }
+    .likeImage img {
+        margin:auto;
+        width:100%;
+    }
+    sections article a.button {
+        clear:both;
+        margin:0 33%;
+        width:auto;
+        font-size:.70em;
+    }
+}
+
 @media screen and (max-width:1024px) {
     nav ul {
         display:none;
