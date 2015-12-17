@@ -255,15 +255,61 @@ a.buttonRed:hover {
     width:384px;
     margin-right:24px;
 }
+.floatLeft {
+    float:left;
+    width:384px;
+    margin-right:20px
+}
 .alignRight {
     float:right;
     width:784px;
     text-align:justify;
 }
+.floatRight {
+    float:right;
+    margin-right:20px;
+}
+.clear {
+    clear:both;
+    padding:20px 0px;
+}
  #main {
     margin-bottom:25px;
  }
-
+#myVideo { /* 16x9 Aspect Ratio Formula | 9/16=.5625 or 56.25% */
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+    width:90%;
+    margin:0px auto;
+}
+#myVideo iframe, #myVideo embed {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+#myAudio {
+    width:400px;
+    margin:0px auto;
+}
+.audioImage {
+    margin:10px;
+    background-color:#4086aa;
+    border:2px solid #c5dde9;
+    width:305px;
+    display:block;
+}
+.audioPic {
+    width:100%;
+    position:relative;
+}
+.audioText {
+    text-align:center;
+}
 /*Footer Styles*/
 footer {
     clear:both;
@@ -417,7 +463,7 @@ legend {background-color:#FFFFFF;}
     display:block;
 }
 .galleryImages img {
-    width:27px;
+    width:276px;
 }
 .figNewton {
     padding:10px;
